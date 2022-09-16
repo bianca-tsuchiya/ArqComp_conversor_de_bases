@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titan+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8FAFB;
+}
+
+.box{
+    display: flex;
+    margin: 3% 5% 3% 5%;
+    align-items: center;
+}
+
+
+.box-principal{
+    display: flex;
+    flex: 40%;
+    padding: 3%;
+    flex-direction: column;
+}
+
+h3{
+    letter-spacing: 3px;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Concert One', cursive;
+    font-size: 90px;
+    color: #464D54;
+}
+
+.descricao{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.banner{
+    flex: 22%;
+    padding: 3%;
+}
+
+.botao-iniciar{
+    background: #180F4A;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+    border: none;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.botao-iniciar:hover{
+    border: none;
+    background: #A5B1C0;
+}
+
+main{
+    background-color: #180F4A;
+    margin-top: 120px;
+    color: #F8FAFB;
+    height: 700px;
+}
+
+#calculadora{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 500px 40px 500px;
+    margin-bottom: 40px;
+}
+
+#calculadora p{
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+#calculadora input{
+    width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 50px;
+    font-size: 35px;
+}
+
+.box-resultados{
+    display: flex;
+    justify-content: center;
+}
+
+.bt_binario, .bt_octal, .bt_hexadecimal{
+    background: #464D54;
+    width: 200px;
+    padding: 10px 25px;
+    color: #F1F3F3;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+}
+
+.bt_binario:hover, .bt_octal:hover, .bt_hexadecimal:hover{
+    border: none;
+    cursor: pointer;
+    background-color:#A5B1C0
+}
+
+.botao-binario, .botao-octal, .botao-hexadecimal{
+    margin: 5px;
+}
+
+.titulo-containers{
+    margin-top: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.containers-resultados{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.container{
+    background-color: black;
+    padding: 20px 40px;
+    width: 350px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.logo{
+    font-family: 'Concert One', cursive;
+    color: #F8FAFB;
+    font-size: 34px;
+}
+
+footer{
+    padding-top: 150px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+}
+
+.logo-rodape{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+
+    
+
+
+
+
